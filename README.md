@@ -7,7 +7,7 @@ Large Language Models tend to be familiar with the most common Italian proverbs.
 
 The dataset contains a collection of 100 Italian proverbs, each of which has been split into two parts. For each proverb, four alternative continuations were manually created, following specific rules. In particular:
 
-- A is a continuation that has similar sounds to the original continuation, but with a different meaning or nonsense.
+- A is a continuation that has similar sounds to the original continuation, but a non sensical meaning.
 - B is a non-rhyming synonym of the original continuation.
 - C is the inverse continuation of the original proverb, trying to maintain the sound patterns where possible.
 - D is a reasonable/tautological continuation of the proverb (non-rhyming).
