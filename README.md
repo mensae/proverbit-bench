@@ -33,4 +33,4 @@ Do not add comments, the possible answers are only A, B, C, D, None.
 Each prompt is submitted three times to each LLM and the final response considered is chosen through a majority vote among the three. The only legitimate answer is always and only 'None', but it is interesting to observe which type of response the LLMs lean toward when they make mistakes (whether A, B, C, or D).
 
 
-This repository contains 10 samples of the dataset, you can check out the leaderboard and evaluation results on the [official webpage](enkk.me/proverbit). 
+This repository contains 10 samples of the dataset, you can check out the leaderboard and evaluation results on the [official webpage](https://enkk.me/proverbit). 
