@@ -12,7 +12,7 @@ The dataset contains a collection of 100 Italian proverbs, each of which has bee
 - C is the inverse continuation of the original proverb, trying to maintain the sound patterns where possible.
 - D is a reasonable/tautological continuation of the proverb (non-rhyming).
 
-Considering for instance the proveb `A buon intenditore, poche parole` (which litteraly translates as "to a wise man, a few words") the prompt provided to the LLMs is the following (originally in Italian, here translated for readability between squared brackets):
+Considering for instance the proveb `A buon intenditore, poche parole` (which literally translates as "to a wise man, a few words") the prompt provided to the LLMs is the following (originally in Italian, here translated for readability between squared brackets):
 
 ```
 Complete the proverb exactly by choosing from the following options (which have no typing errors) indicating only the letter.
@@ -31,3 +31,6 @@ Do not add comments, the possible answers are only A, B, C, D, None.
 # Evaluation
 
 Each prompt is submitted three times to each LLM and the final response considered is chosen through a majority vote among the three. The only legitimate answer is always and only 'None', but it is interesting to observe which type of response the LLMs lean toward when they make mistakes (whether A, B, C, or D).
+
+
+This repository contains 10 samples of the dataset, you can check out the leaderboard and evaluation results on the [official webpage](enkk.me/proverbit). 
