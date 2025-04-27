@@ -15,7 +15,8 @@ The dataset contains a collection of 100 Italian proverbs, each of which has bee
 Considering for instance the proveb `A buon intenditore, poche parole` (which litteraly translates as "to a wise man, a few words") the prompt provided to the LLMs is the following (originally in Italian, here translated for readability between squared brackets):
 
 ```
-Complete the proverb exactly by choosing from the following options (which have no typing errors) indicating only the letter. If none is correct, answer 'None'.
+Complete the proverb exactly by choosing from the following options (which have no typing errors) indicating only the letter.
+If none is correct, answer 'None'.
 
 A buon intenditor,... [to a wise man...]
 
